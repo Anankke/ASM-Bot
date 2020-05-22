@@ -14,7 +14,6 @@ def get_chat_mention(m: Message):
 
 
 async def service_message(c: Client, m: Message):
-    print(m)
     try:
         await m.delete()
     except errors.MessageDeleteForbidden as e:
