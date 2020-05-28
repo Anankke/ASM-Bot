@@ -1,6 +1,6 @@
 # ASM-Bot
 
-![https://github.com/Anankke/ASM-Bot/blob/master/LICENSE](https://img.shields.io/github/license/Anankke/ASM-Bot) ![https://python.org](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue.svg) ![https://github.com/pyrogram/pyrogram/](https://img.shields.io/badge/pyrogram-asyncio-blue.svg)
+![https://github.com/Anankke/ASM-Bot/blob/master/LICENSE](https://img.shields.io/github/license/Anankke/ASM-Bot) ![https://python.org](https://img.shields.io/badge/3.7%20%7C%203.8-blue.svg) ![https://github.com/pyrogram/pyrogram/](https://img.shields.io/badge/pyrogram-asyncio-blue.svg)
 
 > Anti Service Message Bot
 
