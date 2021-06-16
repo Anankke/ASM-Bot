@@ -1,5 +1,7 @@
 import asyncio
-from pyrogram import Client, MessageHandler, Filters, Message, errors
+from pyrogram import Client, filters, errors, idle
+from pyrogram.handlers import MessageHandler
+from pyrogram.types import Message
 import config
 
 
@@ -23,10 +25,10 @@ async def service_message(c: Client, m: Message):
 
 async def main():
     app = Client("asm", api_id=config.API_ID, api_hash=config.API_HASH, bot_token=config.BOT_TOKEN, )
-    app.add_handler(MessageHandler(service_message, Filters.service))
+    app.add_handler(MessageHandler(service_message, filters.service))
     await app.start()
     print("Anti Service Bot is up and accepting message updates. Status OK.")
-    await app.idle()
+    await idle()
 
 
 if __name__ == "__main__":
